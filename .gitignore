@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# Raw and derived bulk data (rebuild from the notebook)
+data/
+*.parquet
+*.csv.gz
+*.zip
+*.feather
+
+# Large model files and pulled run outputs
+*.pkl
+kaggle/pull/
+kaggle/out*/
+kaggle/pull_*/
+
+# Superseded first version
+legacy_v1/
+
+# Backups
+*backup*/
+*_bak/
