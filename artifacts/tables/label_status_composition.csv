@@ -1,0 +1,10 @@
+loan_status,0,1
+Charged Off,186989,72703
+Current,451136,0
+Default,33,0
+Does not meet the credit policy. Status:Charged Off,507,254
+Does not meet the credit policy. Status:Fully Paid,1988,0
+Fully Paid,1029307,0
+In Grace Period,5517,0
+Late (16-30 days),2746,0
+Late (31-120 days),14246,0

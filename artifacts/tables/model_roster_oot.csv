@@ -1,0 +1,10 @@
+model,family,valid_gini,oot_auc,oot_gini,oot_ks,oot_pr_auc,oot_brier,oot_lift_10
+CatBoost (tuned),tree ensemble,0.35699,0.67641,0.35283,0.25568,0.08507,0.04141,2.3382
+XGBoost (tuned),tree ensemble,0.35251,0.67358,0.34716,0.24956,0.08431,0.04141,2.2813
+LightGBM (tuned),tree ensemble,0.34788,0.67114,0.34228,0.24497,0.08293,0.04144,2.2623
+RandomForest (tuned),tree ensemble,0.3381,0.66805,0.3361,0.23992,0.08147,0.17428,2.2172
+WOE logistic scorecard (tuned C x bins),credit scorecard,0.31414,0.6567,0.3134,0.22588,0.075,0.04177,2.0634
+"WOE L1 logistic (lasso, tuned C)",classical linear,0.31131,0.65626,0.31251,0.22567,0.07478,0.04177,2.0665
+"plain logistic (one-hot, untuned C=1)",baseline,0.31782,0.64761,0.29522,0.21526,0.07745,0.04209,2.1829
+"LogisticRegression L2 (one-hot, tuned C)",classical linear,0.31782,0.64761,0.29522,0.21526,0.07745,0.04209,2.1829
+dummy prior,baseline,0.0,0.5,0.0,0.0,0.04399,0.0421,1.0076

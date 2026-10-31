@@ -1,0 +1,15 @@
+feature,vif_initial,dropped_in_iteration
+total_acc,2.370110717062788,False
+open_acc,2.232259648199567,False
+revol_util,1.5881648871505658,False
+loan_amnt,1.540411543212339,False
+fico_mid,1.506926807136762,False
+annual_inc,1.3809372996389813,False
+revol_bal,1.3679251367928584,False
+mort_acc,1.3317691283664226,False
+dti,1.2914026816468118,False
+term_months,1.2284656466087989,False
+pub_rec,1.0914453186691928,False
+delinq_2yrs,1.075407031327886,False
+inq_last_6mths,1.045614543232433,False
+emp_length_years,1.0453236903502783,False

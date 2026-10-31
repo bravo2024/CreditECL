@@ -1,0 +1,7 @@
+field,reason
+out_prncp / total_rec_prncp / total_rec_int / total_pymnt,post-origination cash flows
+recoveries / collection_recovery_fee,"post-charge-off outcome (used only for LGD, never PD)"
+last_pymnt_d / last_pymnt_amnt / last_credit_pull_d,post-origination servicing (last_pymnt_d defines the label)
+last_fico_range_high/low,refreshed bureau score pulled after origination (used only for staging at the reporting date)
+loan_status / settlement_* / debt_settlement_flag,the outcome itself
+grade / sub_grade / int_rate / installment,LendingClub's own risk-based price: a prior model's PD output

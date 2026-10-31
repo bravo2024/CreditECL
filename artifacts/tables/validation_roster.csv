@@ -1,0 +1,10 @@
+model,family,valid_gini,train_gini
+CatBoost (tuned),tree ensemble,0.35699040988603303,0.4050066481514092
+XGBoost (tuned),tree ensemble,0.35251302148093355,0.41792747334736524
+LightGBM (tuned),tree ensemble,0.34787952323268456,0.4059253771868572
+RandomForest (tuned),tree ensemble,0.33810180802952683,0.6156111914257867
+"LogisticRegression L2 (one-hot, tuned C)",classical linear,0.3178207140415954,0.3391529886630136
+"plain logistic (one-hot, untuned C=1)",baseline,0.3178207140415954,0.3391529886630136
+WOE logistic scorecard (tuned C x bins),credit scorecard,0.31413739252576,0.34346977462578665
+"WOE L1 logistic (lasso, tuned C)",classical linear,0.3113053120798319,0.3423065502835021
+dummy prior,baseline,0.0,0.0

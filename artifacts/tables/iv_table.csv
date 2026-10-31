@@ -1,0 +1,20 @@
+feature,iv,strength
+fico_mid,0.09070034791916808,weak
+inq_last_6mths,0.06916487696751007,weak
+dti,0.05481651166946022,weak
+purpose,0.054267632040814424,weak
+annual_inc,0.04642300278944263,weak
+verification_status,0.039160461479582236,weak
+term_months,0.03309858461137723,weak
+home_ownership,0.0327815067192154,weak
+mort_acc,0.0313142363868389,weak
+emp_length_years,0.019010631144679435,useless (<0.02)
+addr_state,0.01754944275184319,useless (<0.02)
+revol_bal,0.011720099724702119,useless (<0.02)
+revol_util,0.005513879120615994,useless (<0.02)
+total_acc,0.003340181196662867,useless (<0.02)
+open_acc,0.0020577561022945535,useless (<0.02)
+pub_rec,0.0018765159344329501,useless (<0.02)
+loan_amnt,0.0010641798503339117,useless (<0.02)
+delinq_2yrs,0.0003182686662958892,useless (<0.02)
+application_type,2.8615904280005805e-06,useless (<0.02)

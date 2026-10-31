@@ -1,0 +1,17 @@
+{
+  "rule": "highest validation-window Gini; a lead of < 0.002 over the WoE scorecard goes to the WoE scorecard; floors are not candidates",
+  "frozen_at": "2026-10-31T14:36:29Z",
+  "oot_outcomes_used_to_write_rule": false,
+  "candidates_valid_gini": {
+    "CatBoost (tuned)": 0.35699,
+    "XGBoost (tuned)": 0.35251,
+    "LightGBM (tuned)": 0.34788,
+    "RandomForest (tuned)": 0.3381,
+    "LogisticRegression L2 (one-hot, tuned C)": 0.31782,
+    "WOE logistic scorecard (tuned C x bins)": 0.31414,
+    "WOE L1 logistic (lasso, tuned C)": 0.31131
+  },
+  "champion": "CatBoost (tuned)",
+  "runner_up": "XGBoost (tuned)",
+  "classical_benchmark": "WOE logistic scorecard (tuned C x bins)"
+}

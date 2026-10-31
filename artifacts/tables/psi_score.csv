@@ -1,0 +1,5 @@
+comparison,psi,band
+train -> valid 2016,0.0012782157411184137,stable
+train -> oot 2017,0.009575482060439481,stable
+train -> 2018 vintages,0.030865107681298798,stable
+valid 2016 -> oot 2017,0.00423102611498085,stable
