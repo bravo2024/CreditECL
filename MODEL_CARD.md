@@ -18,4 +18,4 @@
 
 **Monitoring and triggers.** Score PSI quarterly (green <0.10, amber 0.10-0.25, red >0.25); CSI per feature (largest: revol_util, 0.213 vs 2018 vintages); predicted/actual ratio outside [0.9, 1.1] triggers recalibration (2017 ratio 0.968); Gini falling more than 0.05 below validation triggers redevelopment; a grade failing the binomial test twice in a row is reviewed.
 
-**Reproducibility.** Seeds fixed; Kaggle run 48 min (sklearn 1.6.1, catboost 1.2.10). Generated from `artifacts/`; see `RetailCreditLifecycle.ipynb`.
+**Reproducibility.** Seeds fixed; Kaggle run 48 min (sklearn 1.6.1, catboost 1.2.10). Generated from `artifacts/`; see `RetailCreditLifecycle.executed.ipynb`.

@@ -27,3 +27,14 @@ legacy_v1/
 # Backups
 *backup*/
 *_bak/
+
+# Local-only generators, wrappers and working files
+/RESULTS_DETAIL.md
+/build_notebook.py
+/make_readme.py
+/RetailCreditLifecycle.ipynb
+/kaggle/
+/artifacts/rcl_lib.py
+*GUIDE.md
+*CLAIMS*
+artifacts/*_numbers.json
